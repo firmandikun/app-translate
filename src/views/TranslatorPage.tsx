@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Dimensions, StyleSheet, Text, TextInput, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { colors, fonts } from '../styles'
@@ -24,7 +24,7 @@ const TranslatorPage = ({ navigation, route }: any) => {
         />
         <View
           style={{
-            borderWidth: 1,
+            borderWidth: 1, 
             borderColor: colors.grey,
             width: width * 0.8,
             borderRadius: 4,
